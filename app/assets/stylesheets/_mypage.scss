@@ -1,0 +1,15 @@
+.header {
+  height: 100px;
+  background-color: #00ff00;
+  &__schedule {
+    float: right;
+    font-size: 30px;
+    padding-right: 5px;
+  }
+}
+
+.main {
+  background-color: black;
+  height: calc(100% - 100px);
+  margin-bottom: auto;
+}
